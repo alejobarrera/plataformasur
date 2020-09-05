@@ -6,3 +6,12 @@
 -----------------------------------------------------------------*/
 
 
+.promo-custom-bg {
+	background-color: #d8d0ca;
+}
+
+.bg-custom-img {
+	background-image: url('../images/bgbloqueescuela.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
