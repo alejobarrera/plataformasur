@@ -5,7 +5,26 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+h3, h4, h5 {
+	text-transform: uppercase;
+}
 
+.entry-title h3 {
+	font-size: 1.2rem;
+	letter-spacing:0px,
+}
+
+.feature-box {
+	border-bottom: 2px solid #E5E5E5;
+	padding: 0px 0px 40px 0px;
+}
+.fbox-content p {
+	color: #555;
+}
+.fbox-content h4 {
+	color: #EF7800;
+	margin: 0px 0px 0px 0px;
+}
 .promo-custom-bg {
 	background-color: #d8d0ca;
 }
