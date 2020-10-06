@@ -33,9 +33,69 @@ h3, h4, h5 {
 .promo-custom-bg {
 	background-color: #d8d0ca;
 }
-
+.promo-custom-title {
+	font-family: 'Barlow condensed', 'Lato', sans-serif !important; 
+	font-weight: bold;
+	font-size: 2rem;
+}
+.promo-custom-title p {
+	line-height: 1.2!important;
+}
+.escuela-custom-title {
+	font-family: 'Barlow condensed', 'Lato', sans-serif !important; 
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: left;
+}
 .bg-custom-img {
 	background-image: url('../images/bgbloqueescuela.jpg');
 	background-repeat: repeat;
 	background-attachment: fixed;
+}
+.dark .si-dark-custom {
+	background-color: #fff;
+    color: #000 !important;
+	border-color: transparent;
+	margin: 0px 10px 10px 10px;
+}
+.footer-logo {
+    width: 70%;
+}
+.dark #footer, #footer.dark {
+	color: #fff;
+}
+.dark #footer .footer-list-custom, #footer.dark .footer-list-custom {
+	list-style-type: none;
+}
+.widget_links:not(.widget-li-noicon) li::before {
+	content: "";
+}
+.dark #footer address, #footer.dark address {
+	margin-bottom: 0px;
+}
+.header-misc {
+	margin-left: 0px;
+}
+@media (min-width: 992px) {
+	.menu-link {
+		padding: 39px calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)))!important;
+	}
+	#primary-menu-trigger, #page-menu-trigger {
+		display: 
+	}
+}
+.iconlist li {
+    margin: 15px 0px;
+}
+.iconlist li a {
+    color:  #555;
+}
+.iconlist li a:hover {
+    color: #EF7800;
+}
+.table h5 {
+    margin-bottom: 0px;
+}
+.table i {
+    font-size: 30px;
 }
